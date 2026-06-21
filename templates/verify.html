@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verify OTP - DebugIQ</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="auth-body">
+  <main class="auth-card">
+    <div class="auth-brand">
+      <img src="{{ url_for('static', filename='img/debugiq-logo.svg') }}" alt="DebugIQ logo">
+      <h1>DebugIQ</h1>
+    </div>
+    <p class="auth-subtitle">OTP sent to {{ phone }}.</p>
+
+    {% if error %}
+      <div class="auth-error">{{ error }}</div>
+    {% endif %}
+
+    <form method="post" action="{{ url_for('verify_otp') }}" class="auth-form">
+      <label>
+        OTP code
+        <input name="code" inputmode="numeric" autocomplete="one-time-code" placeholder="Enter OTP" required>
+      </label>
+      <button type="submit" class="analyze">Verify OTP</button>
+    </form>
+
+    <form method="post" action="{{ url_for('send_otp') }}" class="resend-form">
+      <input type="hidden" name="phone" value="{{ phone }}">
+      <button type="submit" class="text-button">Resend OTP</button>
+    </form>
+  </main>
+</body>
+</html>

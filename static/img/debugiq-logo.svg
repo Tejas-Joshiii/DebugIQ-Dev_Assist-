@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">DebugIQ logo</title>
+  <desc id="desc">Premium dark DebugIQ app logo with code brackets, IQ monogram, and connected debugging nodes.</desc>
+  <defs>
+    <linearGradient id="tile" x1="36" y1="28" x2="220" y2="228" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14383f"/>
+      <stop offset="0.45" stop-color="#062025"/>
+      <stop offset="1" stop-color="#020b0d"/>
+    </linearGradient>
+    <linearGradient id="aqua" x1="58" y1="52" x2="204" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d9fff8"/>
+      <stop offset="0.42" stop-color="#89f7df"/>
+      <stop offset="1" stop-color="#20bfa9"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.45 0 0 0 0 1 0 0 0 0 0.86 0 0 0 0.75 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <rect x="16" y="16" width="224" height="224" rx="54" fill="url(#tile)" filter="url(#shadow)"/>
+  <rect x="20" y="20" width="216" height="216" rx="50" fill="none" stroke="#c4fff4" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M46 166 24 128l22-38" fill="none" stroke="#8df7df" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+  <path d="m210 90 22 38-22 38" fill="none" stroke="#8df7df" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.92"/>
+
+  <path d="M75 70h45c39 0 66 24 66 58s-27 58-66 58H75V70Z" fill="#061418" stroke="#21454b" stroke-width="2"/>
+  <path d="M99 94v68h21c23 0 38-13 38-34s-15-34-38-34H99Z" fill="url(#aqua)" filter="url(#glow)"/>
+  <path d="M157 158 190 191" fill="none" stroke="url(#aqua)" stroke-width="13" stroke-linecap="round" filter="url(#glow)"/>
+
+  <circle cx="72" cy="62" r="7" fill="#fef3c7"/>
+  <circle cx="194" cy="68" r="6" fill="#8df7df"/>
+  <circle cx="64" cy="197" r="6" fill="#8df7df"/>
+  <circle cx="188" cy="205" r="7" fill="#fef3c7"/>
+  <path d="M78 66c23 10 39 7 55-4M70 191c21-18 41-22 63-14M188 74c-13 22-15 43-5 66" fill="none" stroke="#8df7df" stroke-opacity="0.42" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M63 126h22M171 126h22" stroke="#d9fff8" stroke-width="8" stroke-linecap="round" opacity="0.92"/>
+  <path d="M128 42v18M128 196v18" stroke="#8df7df" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+</svg>

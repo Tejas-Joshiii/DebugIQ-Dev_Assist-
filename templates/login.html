@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DebugIQ Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body class="auth-body">
+  <main class="auth-card">
+    <div class="auth-brand">
+      <img src="{{ url_for('static', filename='img/debugiq-logo.svg') }}" alt="DebugIQ logo">
+      <h1>DebugIQ</h1>
+    </div>
+    <p class="auth-subtitle">Login with OTP to continue.</p>
+
+    {% if error %}
+      <div class="auth-error">{{ error }}</div>
+    {% endif %}
+
+    <form method="post" action="{{ url_for('send_otp') }}" class="auth-form">
+      <div class="phone-row">
+        <label>
+          Country
+          <select name="country_code">
+            {% set selected_code = country_code or '+91' %}
+            <option value="+91" {% if selected_code == '+91' %}selected{% endif %}>India +91</option>
+            <option value="+1" {% if selected_code == '+1' %}selected{% endif %}>US/Canada +1</option>
+            <option value="+44" {% if selected_code == '+44' %}selected{% endif %}>UK +44</option>
+            <option value="+61" {% if selected_code == '+61' %}selected{% endif %}>Australia +61</option>
+            <option value="+971" {% if selected_code == '+971' %}selected{% endif %}>UAE +971</option>
+          </select>
+        </label>
+        <label>
+          Phone number
+          <input name="phone" value="{{ phone or '' }}" placeholder="9876543210" autocomplete="tel" inputmode="tel" required>
+        </label>
+      </div>
+      <button type="submit" class="analyze">Send OTP</button>
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DebugIQ</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <img src="{{ url_for('static', filename='img/debugiq-logo.svg') }}" alt="DebugIQ logo">
+        <div>
+          <h1>DebugIQ</h1>
+          <p>Learn. Debug. Understand.</p>
+        </div>
+      </div>
+      <div class="top-actions">
+        <form method="post" action="{{ url_for('logout') }}">
+          <button class="logout-button" type="submit">Logout</button>
+        </form>
+      </div>
+    </header>
+
+    <nav class="modes" aria-label="DebugIQ modes">
+      <button class="mode active" data-mode="debug" type="button">Debug My Code</button>
+      <button class="mode" data-mode="leetcode" type="button">Teach Me LeetCode</button>
+      <button class="mode" data-mode="fullstack" type="button">FullStack Debugger</button>
+      <button class="mode" data-mode="ml" type="button">ML Debugger</button>
+    </nav>
+
+    <section class="workspace">
+      <form id="debugForm" class="panel mode-form active">
+        <label>
+          Problem statement
+          <textarea name="problemStatement" placeholder="What should your code do?"></textarea>
+        </label>
+        <label>
+          Your broken code
+          <textarea name="brokenCode" class="codebox" placeholder="Paste broken code here"></textarea>
+        </label>
+        <label>
+          Working code optional
+          <textarea name="workingCode" class="codebox" placeholder="Paste accepted or working code if you have it"></textarea>
+        </label>
+      </form>
+
+      <form id="leetcodeForm" class="panel mode-form">
+        <label>
+          Problem statement
+          <textarea name="leetcodeProblem" placeholder="Paste the LeetCode problem"></textarea>
+        </label>
+        <div class="split">
+          <label>
+            Difficulty
+            <select name="difficulty">
+              <option>Auto Detect</option>
+              <option>Easy</option>
+              <option>Medium</option>
+              <option>Hard</option>
+            </select>
+          </label>
+          <label>
+            Language
+            <select name="language">
+              <option>Auto Detect</option>
+              <option>Python</option>
+              <option>Java</option>
+              <option>C++</option>
+              <option>JavaScript</option>
+            </select>
+          </label>
+        </div>
+      </form>
+
+      <form id="fullstackForm" class="panel mode-form">
+        <label>
+          Bug description
+          <textarea name="bugDescription" placeholder="What is going wrong?"></textarea>
+        </label>
+        <label>
+          Tech stack used
+          <input name="techStack" placeholder="React, Flask, Django, Node, MySQL, MongoDB...">
+        </label>
+        <label>
+          Frontend code/error optional
+          <textarea name="frontendIssue" class="codebox" placeholder="Paste frontend code or browser console error"></textarea>
+        </label>
+        <label>
+          Backend code/error optional
+          <textarea name="backendIssue" class="codebox" placeholder="Paste backend route, traceback, or server log"></textarea>
+        </label>
+        <label>
+          Database query/error optional
+          <textarea name="databaseIssue" class="codebox" placeholder="Paste SQL, Mongo query, or DB error"></textarea>
+        </label>
+      </form>
+
+      <form id="mlForm" class="panel mode-form">
+        <label>
+          ML goal
+          <textarea name="mlGoal" placeholder="What should your model predict or classify?"></textarea>
+        </label>
+        <label>
+          ML code
+          <textarea name="mlCode" class="codebox" placeholder="Paste sklearn, pandas, TensorFlow, PyTorch, or notebook code"></textarea>
+        </label>
+        <label>
+          Dataset info
+          <textarea name="datasetInfo" placeholder="Rows/columns, target column, feature types, missing values, class balance, train/test split..."></textarea>
+        </label>
+        <label>
+          Error, metrics, or weird behavior
+          <textarea name="mlIssue" placeholder="Paste traceback, bad accuracy, overfitting, shape mismatch, wrong predictions, leakage suspicion..."></textarea>
+        </label>
+        <label>
+          Expected behavior optional
+          <textarea name="expectedMlBehavior" placeholder="What result did you expect?"></textarea>
+        </label>
+      </form>
+
+    </section>
+
+    <button id="analyzeBtn" class="analyze" type="button">Analyze</button>
+
+    <section class="panel results">
+      <div class="result-head">
+        <div>
+          <h2>Results</h2>
+          <p id="status">Ready</p>
+        </div>
+        <div class="toggle" role="group" aria-label="Explanation language">
+          <button id="englishToggle" class="active" type="button">English</button>
+            <button id="hindiToggle" type="button">Hinglish</button>
+        </div>
+      </div>
+      <div id="output" class="rendered-output">
+        <article class="result-card">
+          <h3>Start Here</h3>
+          <p>Choose a mode, fill the inputs, then analyze.</p>
+        </article>
+        <article class="result-card visual-card">
+          <h3>Visual Explanation</h3>
+          <p>Your dry run, pointer movement, array diagram, or full-stack flow will appear here.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
