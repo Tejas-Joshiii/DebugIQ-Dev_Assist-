@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#171717"/>
+  <rect x="56" y="48" width="1088" height="94" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="84" y="70" width="54" height="54" fill="#ed6c2f" stroke="#050505" stroke-width="4"/>
+  <text x="158" y="92" font-family="Arial, sans-serif" font-size="38" font-weight="900" fill="#f7f4ed">DebugIQ</text>
+  <text x="158" y="120" font-family="Arial, sans-serif" font-size="17" fill="#c9c9c3">Debug ML bugs with pipeline visuals and metric plots.</text>
+  <rect x="56" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="328" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="600" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="872" y="142" width="272" height="62" fill="#ed6c2f" stroke="#3a3a3a"/>
+  <text x="122" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#f7f4ed">Debug Code</text>
+  <text x="382" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#f7f4ed">Teach LeetCode</text>
+  <text x="656" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#f7f4ed">FullStack</text>
+  <text x="946" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#050505">ML Debugger</text>
+  <rect x="56" y="204" width="544" height="330" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <text x="86" y="248" font-family="Arial" font-size="26" font-weight="900" fill="#f7f4ed">ML Inputs</text>
+  <rect x="86" y="274" width="220" height="82" fill="#df8bd1" stroke="#050505" stroke-width="3"/>
+  <text x="116" y="323" font-family="Arial" font-size="18" font-weight="900" fill="#050505">ML goal</text>
+  <rect x="350" y="274" width="220" height="82" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <text x="386" y="323" font-family="Arial" font-size="18" font-weight="900" fill="#050505">ML code</text>
+  <rect x="86" y="388" width="220" height="82" fill="#f2f542" stroke="#050505" stroke-width="3"/>
+  <text x="110" y="437" font-family="Arial" font-size="18" font-weight="900" fill="#050505">Dataset info</text>
+  <rect x="350" y="388" width="220" height="82" fill="#ed6c2f" stroke="#050505" stroke-width="3"/>
+  <text x="382" y="437" font-family="Arial" font-size="18" font-weight="900" fill="#050505">Metrics / error</text>
+  <rect x="600" y="204" width="544" height="86" fill="#4ea77f" stroke="#3a3a3a"/>
+  <text x="632" y="258" font-family="Arial" font-size="42" font-weight="900" fill="#050505">Results</text>
+  <rect x="600" y="290" width="544" height="244" fill="#f2f542" stroke="#3a3a3a"/>
+  <text x="632" y="334" font-family="Arial" font-size="28" font-weight="900" fill="#050505">ML Pipeline + Plot</text>
+  <rect x="632" y="366" width="76" height="56" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <rect x="734" y="366" width="76" height="56" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <rect x="836" y="366" width="76" height="56" fill="#ed6c2f" stroke="#050505" stroke-width="3"/>
+  <rect x="938" y="366" width="76" height="56" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <rect x="1040" y="366" width="76" height="56" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <text x="646" y="400" font-family="Arial" font-size="15" font-weight="900" fill="#050505">Data</text>
+  <text x="746" y="400" font-family="Arial" font-size="15" font-weight="900" fill="#050505">Clean</text>
+  <text x="850" y="400" font-family="Arial" font-size="15" font-weight="900" fill="#050505">Split</text>
+  <text x="950" y="400" font-family="Arial" font-size="15" font-weight="900" fill="#050505">Train</text>
+  <text x="1052" y="400" font-family="Arial" font-size="15" font-weight="900" fill="#050505">Eval</text>
+  <polyline points="650,500 760,468 870,490 980,430 1090,456" fill="none" stroke="#050505" stroke-width="5"/>
+  <polyline points="650,512 760,520 870,530 980,535 1090,540" fill="none" stroke="#ed6c2f" stroke-width="5"/>
+  <circle cx="980" cy="430" r="7" fill="#050505"/>
+  <text x="632" y="570" font-family="Arial" font-size="18" font-weight="900" fill="#f7f4ed">train high</text>
+  <text x="760" y="570" font-family="Arial" font-size="18" font-weight="900" fill="#ed6c2f">test low = overfit</text>
+  <rect x="56" y="558" width="1088" height="82" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <text x="86" y="608" font-family="Arial" font-size="24" font-weight="900" fill="#f7f4ed">Detect leakage, bad split, wrong metrics, shape bugs, overfitting, and missing preprocessing.</text>
+</svg>

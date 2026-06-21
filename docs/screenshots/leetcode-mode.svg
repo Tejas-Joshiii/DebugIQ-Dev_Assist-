@@ -1,24 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
-  <rect width="960" height="540" fill="#eef3f7"/>
-  <rect x="40" y="32" width="880" height="72" rx="8" fill="#fff" stroke="#d7dee8"/>
-  <text x="68" y="78" font-family="Arial" font-size="30" font-weight="700" fill="#15202b">DebugIQ</text>
-  <rect x="40" y="124" width="280" height="48" rx="7" fill="#fff" stroke="#d7dee8"/>
-  <text x="92" y="154" font-family="Arial" font-size="16" font-weight="700" fill="#15202b">Debug My Code</text>
-  <rect x="340" y="124" width="280" height="48" rx="7" fill="#0f766e"/>
-  <text x="396" y="154" font-family="Arial" font-size="16" font-weight="700" fill="#fff">Teach Me LeetCode</text>
-  <rect x="640" y="124" width="280" height="48" rx="7" fill="#fff" stroke="#d7dee8"/>
-  <text x="696" y="154" font-family="Arial" font-size="16" font-weight="700" fill="#15202b">FullStack Debugger</text>
-  <rect x="40" y="192" width="420" height="286" rx="8" fill="#fff" stroke="#d7dee8"/>
-  <text x="64" y="226" font-family="Arial" font-size="17" font-weight="700" fill="#344054">LeetCode problem</text>
-  <rect x="64" y="242" width="372" height="128" rx="6" fill="#fbfdff" stroke="#d7dee8"/>
-  <rect x="64" y="394" width="172" height="42" rx="6" fill="#fbfdff" stroke="#d7dee8"/>
-  <text x="88" y="421" font-family="Arial" font-size="15" fill="#667085">Medium</text>
-  <rect x="264" y="394" width="172" height="42" rx="6" fill="#fbfdff" stroke="#d7dee8"/>
-  <text x="288" y="421" font-family="Arial" font-size="15" fill="#667085">Python</text>
-  <rect x="484" y="192" width="436" height="286" rx="8" fill="#fff" stroke="#d7dee8"/>
-  <text x="508" y="226" font-family="Arial" font-size="20" font-weight="700" fill="#15202b">Results</text>
-  <text x="508" y="268" font-family="Arial" font-size="16" fill="#15202b">Pattern first</text>
-  <text x="508" y="302" font-family="Arial" font-size="16" fill="#15202b">Step-by-step thinking</text>
-  <text x="508" y="336" font-family="Arial" font-size="16" fill="#15202b">Commented solution</text>
-  <text x="508" y="370" font-family="Arial" font-size="16" fill="#15202b">Complexity + Hindi explanation</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#171717"/>
+  <rect x="56" y="48" width="1088" height="94" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="84" y="70" width="54" height="54" fill="#df8bd1" stroke="#050505" stroke-width="4"/>
+  <text x="158" y="92" font-family="Arial, sans-serif" font-size="38" font-weight="900" fill="#f7f4ed">DebugIQ</text>
+  <text x="158" y="120" font-family="Arial, sans-serif" font-size="17" fill="#c9c9c3">Learn LeetCode by understanding patterns first.</text>
+  <rect x="56" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="328" y="142" width="272" height="62" fill="#df8bd1" stroke="#3a3a3a"/>
+  <rect x="600" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="872" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <text x="122" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#f7f4ed">Debug Code</text>
+  <text x="382" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#050505">Teach LeetCode</text>
+  <text x="654" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#f7f4ed">FullStack</text>
+  <text x="946" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#f7f4ed">ML Debugger</text>
+  <rect x="56" y="204" width="544" height="330" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <text x="86" y="248" font-family="Arial" font-size="26" font-weight="900" fill="#f7f4ed">Problem Statement</text>
+  <rect x="86" y="274" width="484" height="118" fill="#111111" stroke="#565656"/>
+  <text x="108" y="312" font-family="Arial" font-size="18" fill="#f7f4ed">Given nums and target, return two indices.</text>
+  <text x="108" y="348" font-family="Arial" font-size="18" fill="#c9c9c3">Difficulty: Auto Detect</text>
+  <text x="108" y="378" font-family="Arial" font-size="18" fill="#c9c9c3">Language: Auto Detect</text>
+  <rect x="86" y="424" width="218" height="70" fill="#f2f542" stroke="#050505" stroke-width="3"/>
+  <text x="118" y="467" font-family="Arial" font-size="21" font-weight="900" fill="#050505">Analyze</text>
+  <rect x="600" y="204" width="544" height="86" fill="#4ea77f" stroke="#3a3a3a"/>
+  <text x="632" y="258" font-family="Arial" font-size="42" font-weight="900" fill="#050505">Results</text>
+  <rect x="600" y="290" width="272" height="244" fill="#f2f542" stroke="#3a3a3a"/>
+  <text x="628" y="334" font-family="Arial" font-size="27" font-weight="900" fill="#050505">Visual Dry Run</text>
+  <rect x="632" y="374" width="54" height="54" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <rect x="698" y="374" width="54" height="54" fill="#ed6c2f" stroke="#050505" stroke-width="3"/>
+  <rect x="764" y="374" width="54" height="54" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <text x="651" y="408" font-family="Arial" font-size="21" font-weight="900" fill="#050505">2</text>
+  <text x="717" y="408" font-family="Arial" font-size="21" font-weight="900" fill="#050505">7</text>
+  <text x="783" y="408" font-family="Arial" font-size="21" font-weight="900" fill="#050505">11</text>
+  <path d="M725 452 L725 430" stroke="#050505" stroke-width="4"/>
+  <text x="670" y="484" font-family="Arial" font-size="17" font-weight="900" fill="#050505">finger points here</text>
+  <rect x="872" y="290" width="272" height="244" fill="#ed6c2f" stroke="#3a3a3a"/>
+  <text x="902" y="335" font-family="Arial" font-size="27" font-weight="900" fill="#050505">Approach</text>
+  <text x="902" y="382" font-family="Arial" font-size="18" fill="#050505">1. Identify pattern</text>
+  <text x="902" y="421" font-family="Arial" font-size="18" fill="#050505">2. Think before code</text>
+  <text x="902" y="460" font-family="Arial" font-size="18" fill="#050505">3. Write clean solution</text>
+  <rect x="56" y="558" width="1088" height="82" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <text x="86" y="608" font-family="Arial" font-size="24" font-weight="900" fill="#f7f4ed">Pattern, code, line-by-line explanation, complexity, and Hinglish learning notes.</text>
 </svg>

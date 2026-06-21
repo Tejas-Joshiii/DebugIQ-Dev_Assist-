@@ -1,23 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
-  <rect width="960" height="540" fill="#eef3f7"/>
-  <rect x="40" y="32" width="880" height="72" rx="8" fill="#fff" stroke="#d7dee8"/>
-  <text x="68" y="78" font-family="Arial" font-size="30" font-weight="700" fill="#15202b">DebugIQ</text>
-  <text x="210" y="78" font-family="Arial" font-size="18" fill="#667085">Learn. Debug. Understand.</text>
-  <rect x="40" y="124" width="280" height="48" rx="7" fill="#0f766e"/>
-  <text x="92" y="154" font-family="Arial" font-size="16" font-weight="700" fill="#fff">Debug My Code</text>
-  <rect x="340" y="124" width="280" height="48" rx="7" fill="#fff" stroke="#d7dee8"/>
-  <text x="396" y="154" font-family="Arial" font-size="16" font-weight="700" fill="#15202b">Teach Me LeetCode</text>
-  <rect x="640" y="124" width="280" height="48" rx="7" fill="#fff" stroke="#d7dee8"/>
-  <text x="696" y="154" font-family="Arial" font-size="16" font-weight="700" fill="#15202b">FullStack Debugger</text>
-  <rect x="40" y="192" width="420" height="286" rx="8" fill="#fff" stroke="#d7dee8"/>
-  <text x="64" y="226" font-family="Arial" font-size="17" font-weight="700" fill="#344054">Problem statement</text>
-  <rect x="64" y="242" width="372" height="54" rx="6" fill="#fbfdff" stroke="#d7dee8"/>
-  <text x="64" y="330" font-family="Arial" font-size="17" font-weight="700" fill="#344054">Broken code</text>
-  <rect x="64" y="346" width="372" height="96" rx="6" fill="#fbfdff" stroke="#d7dee8"/>
-  <rect x="484" y="192" width="436" height="286" rx="8" fill="#fff" stroke="#d7dee8"/>
-  <text x="508" y="226" font-family="Arial" font-size="20" font-weight="700" fill="#15202b">Results</text>
-  <text x="508" y="268" font-family="Arial" font-size="16" fill="#15202b">Why your logic failed</text>
-  <text x="508" y="302" font-family="Arial" font-size="16" fill="#15202b">Code diff explained</text>
-  <text x="508" y="336" font-family="Arial" font-size="16" fill="#15202b">Missing concept</text>
-  <text x="508" y="370" font-family="Arial" font-size="16" fill="#15202b">Hindi explanation toggle</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#171717"/>
+  <circle cx="140" cy="70" r="180" fill="#ffffff" opacity="0.06"/>
+  <rect x="56" y="48" width="1088" height="94" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="84" y="70" width="54" height="54" fill="#f2f542" stroke="#050505" stroke-width="4"/>
+  <path d="M98 101 L112 82 L126 101 L112 120 Z" fill="#ed6c2f"/>
+  <text x="158" y="92" font-family="Arial, sans-serif" font-size="38" font-weight="900" fill="#f7f4ed">DebugIQ</text>
+  <text x="158" y="120" font-family="Arial, sans-serif" font-size="17" fill="#c9c9c3">Learn. Debug. Understand.</text>
+  <rect x="56" y="142" width="272" height="62" fill="#4ea77f" stroke="#3a3a3a"/>
+  <rect x="328" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="600" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="872" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <text x="124" y="181" font-family="Arial, sans-serif" font-size="19" font-weight="900" fill="#050505">Debug My Code</text>
+  <text x="377" y="181" font-family="Arial, sans-serif" font-size="19" font-weight="900" fill="#f7f4ed">Teach LeetCode</text>
+  <text x="653" y="181" font-family="Arial, sans-serif" font-size="19" font-weight="900" fill="#f7f4ed">FullStack</text>
+  <text x="948" y="181" font-family="Arial, sans-serif" font-size="19" font-weight="900" fill="#f7f4ed">ML Debugger</text>
+  <rect x="56" y="204" width="544" height="330" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="56" y="204" width="544" height="126" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <text x="86" y="248" font-family="Arial, sans-serif" font-size="23" font-weight="900" fill="#f7f4ed">Problem statement</text>
+  <rect x="86" y="270" width="484" height="36" fill="#111111" stroke="#565656"/>
+  <text x="104" y="294" font-family="Arial, sans-serif" font-size="15" fill="#c9c9c3">Find two numbers whose sum equals target</text>
+  <rect x="56" y="330" width="272" height="204" fill="#df8bd1" stroke="#3a3a3a"/>
+  <text x="86" y="374" font-family="Arial, sans-serif" font-size="23" font-weight="900" fill="#050505">Broken code</text>
+  <rect x="86" y="396" width="212" height="100" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <text x="104" y="425" font-family="Menlo, monospace" font-size="14" fill="#050505">for i in nums:</text>
+  <text x="104" y="452" font-family="Menlo, monospace" font-size="14" fill="#050505">  if i + j == target:</text>
+  <text x="104" y="479" font-family="Menlo, monospace" font-size="14" fill="#050505">    return i, j</text>
+  <rect x="328" y="330" width="272" height="204" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <text x="358" y="374" font-family="Arial, sans-serif" font-size="23" font-weight="900" fill="#f7f4ed">Working code</text>
+  <rect x="358" y="396" width="212" height="100" fill="#111111" stroke="#565656"/>
+  <text x="376" y="425" font-family="Menlo, monospace" font-size="14" fill="#f7f4ed">seen = {}</text>
+  <text x="376" y="452" font-family="Menlo, monospace" font-size="14" fill="#f7f4ed">for i, x in enumerate(nums):</text>
+  <text x="376" y="479" font-family="Menlo, monospace" font-size="14" fill="#f7f4ed">  ...</text>
+  <rect x="600" y="204" width="544" height="86" fill="#4ea77f" stroke="#3a3a3a"/>
+  <text x="632" y="258" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#050505">Results</text>
+  <rect x="600" y="290" width="272" height="244" fill="#f2f542" stroke="#3a3a3a"/>
+  <text x="630" y="335" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#050505">Visual Explanation</text>
+  <rect x="635" y="372" width="48" height="54" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <rect x="695" y="372" width="48" height="54" fill="#ed6c2f" stroke="#050505" stroke-width="3"/>
+  <rect x="755" y="372" width="48" height="54" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <text x="650" y="406" font-family="Arial" font-size="20" font-weight="900" fill="#050505">2</text>
+  <text x="710" y="406" font-family="Arial" font-size="20" font-weight="900" fill="#050505">7</text>
+  <text x="770" y="406" font-family="Arial" font-size="20" font-weight="900" fill="#050505">11</text>
+  <text x="695" y="468" font-family="Arial" font-size="17" font-weight="900" fill="#050505">finger i</text>
+  <text x="632" y="506" font-family="Arial" font-size="18" fill="#050505">Compare boxes, then move pointer.</text>
+  <rect x="872" y="290" width="272" height="244" fill="#ed6c2f" stroke="#3a3a3a"/>
+  <text x="902" y="335" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#050505">Fix</text>
+  <text x="902" y="382" font-family="Arial" font-size="18" fill="#050505">Use index loop.</text>
+  <text x="902" y="421" font-family="Arial" font-size="18" fill="#050505">Store previous values.</text>
+  <text x="902" y="460" font-family="Arial" font-size="18" fill="#050505">Return indices, not values.</text>
+  <rect x="56" y="558" width="1088" height="82" fill="#f2f542" stroke="#3a3a3a"/>
+  <text x="484" y="609" font-family="Arial" font-size="24" font-weight="900" fill="#050505">Analyze</text>
 </svg>

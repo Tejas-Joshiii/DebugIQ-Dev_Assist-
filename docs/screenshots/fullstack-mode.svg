@@ -1,22 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
-  <rect width="960" height="540" fill="#eef3f7"/>
-  <rect x="40" y="32" width="880" height="72" rx="8" fill="#fff" stroke="#d7dee8"/>
-  <text x="68" y="78" font-family="Arial" font-size="30" font-weight="700" fill="#15202b">DebugIQ</text>
-  <rect x="40" y="124" width="280" height="48" rx="7" fill="#fff" stroke="#d7dee8"/>
-  <text x="92" y="154" font-family="Arial" font-size="16" font-weight="700" fill="#15202b">Debug My Code</text>
-  <rect x="340" y="124" width="280" height="48" rx="7" fill="#fff" stroke="#d7dee8"/>
-  <text x="396" y="154" font-family="Arial" font-size="16" font-weight="700" fill="#15202b">Teach Me LeetCode</text>
-  <rect x="640" y="124" width="280" height="48" rx="7" fill="#0f766e"/>
-  <text x="696" y="154" font-family="Arial" font-size="16" font-weight="700" fill="#fff">FullStack Debugger</text>
-  <rect x="40" y="192" width="420" height="286" rx="8" fill="#fff" stroke="#d7dee8"/>
-  <text x="64" y="226" font-family="Arial" font-size="17" font-weight="700" fill="#344054">Bug description + stack</text>
-  <rect x="64" y="242" width="372" height="54" rx="6" fill="#fbfdff" stroke="#d7dee8"/>
-  <rect x="64" y="320" width="372" height="46" rx="6" fill="#fbfdff" stroke="#d7dee8"/>
-  <rect x="64" y="390" width="372" height="54" rx="6" fill="#fbfdff" stroke="#d7dee8"/>
-  <rect x="484" y="192" width="436" height="286" rx="8" fill="#fff" stroke="#d7dee8"/>
-  <text x="508" y="226" font-family="Arial" font-size="20" font-weight="700" fill="#15202b">Results</text>
-  <text x="508" y="268" font-family="Arial" font-size="16" fill="#15202b">Bug layer: Frontend / Backend / DB</text>
-  <text x="508" y="302" font-family="Arial" font-size="16" fill="#15202b">Exact cause</text>
-  <text x="508" y="336" font-family="Arial" font-size="16" fill="#15202b">Step-by-step fix</text>
-  <text x="508" y="370" font-family="Arial" font-size="16" fill="#15202b">What to check next time</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#171717"/>
+  <rect x="56" y="48" width="1088" height="94" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="84" y="70" width="54" height="54" fill="#f2f542" stroke="#050505" stroke-width="4"/>
+  <text x="158" y="92" font-family="Arial, sans-serif" font-size="38" font-weight="900" fill="#f7f4ed">DebugIQ</text>
+  <text x="158" y="120" font-family="Arial, sans-serif" font-size="17" fill="#c9c9c3">Diagnose frontend, backend, database, and connection bugs.</text>
+  <rect x="56" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="328" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <rect x="600" y="142" width="272" height="62" fill="#f2f542" stroke="#3a3a3a"/>
+  <rect x="872" y="142" width="272" height="62" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <text x="122" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#f7f4ed">Debug Code</text>
+  <text x="382" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#f7f4ed">Teach LeetCode</text>
+  <text x="656" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#050505">FullStack</text>
+  <text x="946" y="181" font-family="Arial" font-size="19" font-weight="900" fill="#f7f4ed">ML Debugger</text>
+  <rect x="56" y="204" width="544" height="330" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <text x="86" y="248" font-family="Arial" font-size="26" font-weight="900" fill="#f7f4ed">Bug Description</text>
+  <rect x="86" y="274" width="484" height="70" fill="#111111" stroke="#565656"/>
+  <text x="108" y="318" font-family="Arial" font-size="18" fill="#f7f4ed">Login works, but profile data is empty.</text>
+  <rect x="86" y="370" width="220" height="92" fill="#df8bd1" stroke="#050505" stroke-width="3"/>
+  <text x="108" y="412" font-family="Arial" font-size="18" font-weight="900" fill="#050505">Frontend error</text>
+  <rect x="350" y="370" width="220" height="92" fill="#ed6c2f" stroke="#050505" stroke-width="3"/>
+  <text x="376" y="412" font-family="Arial" font-size="18" font-weight="900" fill="#050505">Backend log</text>
+  <rect x="600" y="204" width="544" height="86" fill="#4ea77f" stroke="#3a3a3a"/>
+  <text x="632" y="258" font-family="Arial" font-size="42" font-weight="900" fill="#050505">Results</text>
+  <rect x="600" y="290" width="544" height="244" fill="#f2f542" stroke="#3a3a3a"/>
+  <text x="632" y="334" font-family="Arial" font-size="28" font-weight="900" fill="#050505">Visual Debug Map</text>
+  <rect x="632" y="372" width="130" height="82" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <rect x="812" y="372" width="130" height="82" fill="#ed6c2f" stroke="#050505" stroke-width="3"/>
+  <rect x="992" y="372" width="130" height="82" fill="#f7f4ed" stroke="#050505" stroke-width="3"/>
+  <text x="660" y="418" font-family="Arial" font-size="18" font-weight="900" fill="#050505">Frontend</text>
+  <text x="848" y="418" font-family="Arial" font-size="18" font-weight="900" fill="#050505">Backend</text>
+  <text x="1024" y="418" font-family="Arial" font-size="18" font-weight="900" fill="#050505">Database</text>
+  <text x="774" y="422" font-family="Arial" font-size="28" font-weight="900" fill="#050505">-&gt;</text>
+  <text x="954" y="422" font-family="Arial" font-size="28" font-weight="900" fill="#050505">-&gt;</text>
+  <text x="836" y="489" font-family="Arial" font-size="16" font-weight="900" fill="#050505">bug likely here</text>
+  <rect x="56" y="558" width="1088" height="82" fill="#0a0a0a" stroke="#3a3a3a"/>
+  <text x="86" y="608" font-family="Arial" font-size="24" font-weight="900" fill="#f7f4ed">Layer detection, exact cause, step-by-step fix, and what to check next time.</text>
 </svg>
